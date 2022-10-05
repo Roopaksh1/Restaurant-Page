@@ -5,13 +5,13 @@ const header = () => {
   header.classList.add("header");
   const home = document.createElement("div");
   home.textContent = "Home";
-  home.classList.add("home");
+  home.classList.add("home-btn");
   const menu = document.createElement("div");
   menu.textContent = "Menu";
-  menu.classList.add("menu");
+  menu.classList.add("menu-btn");
   const contact = document.createElement("div");
   contact.textContent = "Contact";
-  contact.classList.add("contact");
+  contact.classList.add("contact-btn");
   header.append(home, menu, contact);
 
   return header;
