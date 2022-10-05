@@ -5,7 +5,7 @@ const header = () => {
   header.classList.add("header");
   const home = document.createElement("div");
   home.textContent = "Home";
-  home.classList.add("home-btn");
+  home.classList.add("home-btn", "active");
   const menu = document.createElement("div");
   menu.textContent = "Menu";
   menu.classList.add("menu-btn");
