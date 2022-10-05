@@ -1,0 +1,19 @@
+.header {
+  min-height: 10%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 5rem;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ade8f4;
+}
+
+.header > * {
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.header > *:hover {
+  transform: scale(1.1); 
+}
