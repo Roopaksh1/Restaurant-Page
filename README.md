@@ -6,7 +6,7 @@
 
 ![image](https://user-images.githubusercontent.com/72032743/194386053-71bc08f7-b0b5-47f4-80e4-8b61a3216fdf.png)
 
-## What I Learned - OPTIONAL
+## What I Learned
 - ES6 module
 - Webpack
 - npm
